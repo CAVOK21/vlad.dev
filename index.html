@@ -1,54 +1,272 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="ru">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>vlad.codes</title>
-<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<header>
-  <h1>O_o</h1>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PC Help Studio</title>
+    <meta
+      name="description"
+      content="Ремонт и обслуживание ПК и ноутбуков, сборка и апгрейд компьютеров от PC Help Studio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark"></span>
+          <span class="brand-name">PC Help Studio</span>
+        </a>
 
-<section class="biography">
-  <h2>Биография</h2>
-  <p>Всё, что я делаю, ведёт к моей мечте. 
-Мечта для меня — поддержка и источник страданий в одном лице. Я построил на ней свою жизнь.
+        <nav class="site-nav">
+          <a href="./index.html#services">Услуги</a>
+          <a href="./garantii.html">Гарантии</a>
+          <a href="./dostavka.html">Доставка</a>
+          <a href="./oplata.html">Оплата</a>
+          <a href="./rassrochka-i-kredit.html">Рассрочка</a>
+          <a href="./blog.html">Блог</a>
+          <a href="./index.html#contact">Контакты</a>
+        </nav>
+      </header>
 
-Я отказываюсь от пути 5/2 ради вечно зелёных. Я не стану очередным рабочим. Это мой главный страх и главная мотивация.
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow">Мастерская ремонта, продажа и сборка ПК</div>
+            <h1>Ремонтируем, обслуживаем и собираем ПК под ваши задачи.</h1>
+            <p class="hero-text">
+              Любые виды работ: чистка, профилактика, сборка, апгрейд, ремонт, восстановление данных,
+              установка Windows и ПО.
+            </p>
 
-Вместо этого я вложу всю свою жизнь в то, чтобы реализовать ваши проекты безупречно. Вы получите качество, которое стоит своих денег.
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">Оставить заявку</a>
+              <a class="button button-secondary" href="#services">Смотреть услуги</a>
+            </div>
 
-Так же у меня имеется в арсенале пара хороших дизайнеров к которым вы сможете обратиться в случае чего.</p>
-</section>
+            <div class="stats-card">
+              <article>
+                <strong>0 руб.</strong>
+                <span>диагностика устройств от</span>
+              </article>
+              <article>
+                <strong>от 50 руб.</strong>
+                <span>ремонт компьютеров</span>
+              </article>
+              <article>
+                <strong>от 150 руб.</strong>
+                <span>сборка компьютера под ключ</span>
+              </article>
+            </div>
+          </div>
 
-<section class="photo">
-  <img src="images/uakonch2.jpg" alt="Фото" />
-</section>
+          <div class="hero-visual">
+            <div class="visual-topline">
+              <span class="visual-tag">PC HELP STUDIO</span>
+              <span class="visual-status">Минск</span>
+            </div>
 
-<section class="achievements">
-  <h2>Достижения</h2>
-  <ul>
-    <li>С 14 лет. Мой Telegram-бот работает в госструктуре. А это — только начало.
+            <div class="floating-card floating-card-left">
+              <span class="floating-label">Выезд бесплатно</span>
+              <p>Диагностика при последующем ремонте также бесплатно.</p>
+            </div>
 
-Я уже знаю вкус настоящих проектов и не собираюсь тормозить. Моя мечта — стать профессионалом, а не «простым рабочим» на конвейере.
+            <div class="pc-scene">
+              <div class="pc-monitor">
+                <span class="screen-glow"></span>
+                <span class="screen-text">service</span>
+              </div>
+              <div class="pc-case">
+                <span class="fan fan-top"></span>
+                <span class="fan fan-bottom"></span>
+                <span class="case-glow"></span>
+              </div>
+              <div class="desk"></div>
+            </div>
 
-Я горю желанием брать новые вершины. Ваши проекты будут реализованы с таким же серьезным подходом и вниманием к деталям, как и мои первые работы.
+            <div class="floating-card floating-card-right">
+              <span class="floating-label">Телефон</span>
+              <strong>+375 25 679-14-99</strong>
+              <p>связь через Telegram, WhatsApp, Viber</p>
+            </div>
+          </div>
+        </section>
 
-Я не ищу лёгких путей. Я ищу результат.</li>
-  </ul>
-</section>
+        <section class="section section-light" id="services">
+          <div class="section-heading">
+            <span class="section-kicker">Услуги</span>
+            <h2>Обслуживание и ремонт ПК и ноутбуков, сборка и апгрейд.</h2>
+            <p>
+              Все действия проводятся через документацию: акт забора техники, акт выполненных работ
+              и гарантия на работы.
+            </p>
+          </div>
 
-<section>
-  
-</section>
+          <div class="service-grid">
+            <article class="service-card service-card-accent">
+              <div class="service-icon">▣</div>
+              <h3>Диагностика устройств</h3>
+              <p>Проверка неисправностей и консультация по ремонту.</p>
+              <strong>от 0 руб.</strong>
+            </article>
 
-<section class="contacts">
-  <h2>Контактные данные</h2>
-  <p>Instagram: <a href="https://www.instagram.com/kit_bloxastiy/" target="_blank">Vlad Makei</a></p>
-  <p>Telegram: <a href="https://t.me/cavok21" target="_blank">Vlad Makei</a></p>
-</section>
+            <article class="service-card">
+              <div class="service-icon">◫</div>
+              <h3>Установка и настройка Windows</h3>
+              <p>Установка системы, драйверов и базовая оптимизация.</p>
+              <strong>от 100 руб.</strong>
+            </article>
 
-</body>
+            <article class="service-card service-card-dark">
+              <div class="service-icon">◈</div>
+              <h3>Ремонт компьютеров</h3>
+              <p>Аппаратный и программный ремонт с согласованием работ.</p>
+              <strong>от 50 руб.</strong>
+            </article>
+          </div>
+
+          <div class="trust-row">
+            <span>Удаление вирусов от 100 руб.</span>
+            <span>Восстановление данных от 120 руб.</span>
+            <span>Удаленная помощь от 60 руб.</span>
+          </div>
+        </section>
+
+        <section class="section section-muted" id="builds">
+          <div class="section-heading">
+            <span class="section-kicker">Фото работ</span>
+            <h2>Реальные фото работ и техники с вашего старого сайта.</h2>
+          </div>
+
+          <div class="build-grid">
+            <article class="build-card">
+              <div class="build-image build-image-real-1"></div>
+              <div class="build-body">
+                <span class="build-tag">PC Service</span>
+                <h3>Сервис и обслуживание компьютеров и ноутбуков</h3>
+                <strong>Чистка ПК и ноутбуков от 100 руб.</strong>
+              </div>
+            </article>
+
+            <article class="build-card build-card-dark">
+              <div class="build-image build-image-real-2"></div>
+              <div class="build-body">
+                <span class="build-tag">Custom Build</span>
+                <h3>Сборка компьютера под ваши задачи</h3>
+                <strong>от 150 руб.</strong>
+              </div>
+            </article>
+
+            <article class="build-card">
+              <div class="build-image build-image-real-3"></div>
+              <div class="build-body">
+                <span class="build-tag">Upgrade</span>
+                <h3>Модернизация компьютера и апгрейд комплектующих</h3>
+                <strong>от 100 руб.</strong>
+              </div>
+            </article>
+          </div>
+
+          <div class="inline-cta">
+            <a class="button button-primary" href="#contact">Связаться с нами</a>
+            <p>Телефон: +375 (25) 679-14-99, адрес: ул. Тимирязева 65, каб. 418.</p>
+          </div>
+        </section>
+
+        <section class="section section-light">
+          <div class="section-heading">
+            <span class="section-kicker">Условия</span>
+            <h2>Гарантии, доставка, оплата и рассрочка</h2>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-number">01</span>
+              <h3>Гарантии</h3>
+              <p>
+                На работы и продукцию действует гарантийный срок. В гарантийный период устраняем
+                недостатки, при необходимости делаем ремонт или замену.
+              </p>
+            </article>
+
+            <article class="step-card step-card-accent">
+              <span class="step-number">02</span>
+              <h3>Доставка и оплата</h3>
+              <p>
+                Срок доставки обычно 3-7 рабочих дней. Оплата: Visa, MasterCard, МИР, безналичный
+                расчет для юрлиц и наличный расчет.
+              </p>
+            </article>
+
+            <article class="step-card step-card-dark">
+              <span class="step-number">03</span>
+              <h3>Рассрочка и кредит</h3>
+              <p>
+                Можно оформить кредит через банки-партнеры. Для некоторых категорий товаров доступна
+                рассрочка без переплат.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-dark">
+          <div class="section-heading">
+            <span class="section-kicker section-kicker-dark">Отзывы</span>
+            <h2>Отзывы клиентов со старого сайта</h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card">
+              <p>
+                Быстро и качественно восстановили данные на моем ноутбуке. Очень довольна
+                профессиональным подходом мастеров.
+              </p>
+              <strong>Лиза, восстановление диска</strong>
+            </article>
+
+            <article class="review-card review-card-secondary">
+              <p>
+                Заказывала сборку нового компьютера. Все сделали быстро, получила идеально работающий
+                ПК. Рекомендую.
+              </p>
+              <strong>Елена, сборка ПК</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-cta" id="contact">
+          <span class="section-kicker">Контакты</span>
+
+          <div class="cta-panel">
+            <div class="cta-copy">
+              <h2>Свяжитесь с нами удобным способом</h2>
+              <p>
+                Телефон: +375 (25) 679-14-99. Адрес: ул. Тимирязева 65 (4 этаж, кабинет 418).
+                Telegram: t.me/pchelpstudio.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a class="button button-primary" href="tel:+375256791499">Позвонить</a>
+              <span>Telegram / WhatsApp / Viber / Instagram / TikTok</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <strong>PC Help Studio</strong>
+        <span>Ремонт и обслуживание ПК и ноутбуков</span>
+        <span id="footer-year"></span>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
